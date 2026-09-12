@@ -23,15 +23,8 @@ Si Windows Defender bloque l’exe (faux positif fréquent avec PyInstaller non 
 
 ## Compilation
 
-```bat
-python -m pip install -r requirements.txt
-python make_icon.py
-python -m PyInstaller --noconfirm --clean ppix-photo-thumb.spec
-```
-
-Le dossier `src_obf/` contient le **source obfusqué** (bytecode).  
-`main.py` et `ppix_boot.py` chargent l’application.
+Aucune compilation n'est nécessaire. Le fichier .exe est directement fourni dans la release Windows.
 
 ## Licence
 
-Usage personnel. Plex est une marque de Plex, Inc. Ce projet n’est pas affilié à Plex.
+Usage personnel, pas de modification sans l'accord de l'auteur. Plex est une marque de Plex, Inc. Ce projet n’est pas affilié à Plex.
