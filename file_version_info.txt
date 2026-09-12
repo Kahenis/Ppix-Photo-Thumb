@@ -1,0 +1,30 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 1, 0, 0),
+    prodvers=(1, 1, 0, 0),
+    mask=0x3F,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040C04B0',
+        [
+          StringStruct('CompanyName', 'Kahenis'),
+          StringStruct('FileDescription', 'PPix Photo-thumb - miniatures Plex Photos'),
+          StringStruct('FileVersion', '1.1.0'),
+          StringStruct('InternalName', 'ppix-photo-thumb'),
+          StringStruct('LegalCopyright', 'Copyright (c) Kahenis'),
+          StringStruct('OriginalFilename', 'ppix-photo-thumb.exe'),
+          StringStruct('ProductName', 'PPix Photo-thumb'),
+          StringStruct('ProductVersion', '1.1.0')
+        ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1036, 1200])])
+  ]
+)
