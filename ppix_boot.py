@@ -1,4 +1,4 @@
-"""Chargeur PPix Photo-thumb."""
+"""Chargeur Ppix-photo-Thumb."""
 
 from __future__ import annotations
 
@@ -52,7 +52,13 @@ def run() -> None:
     install_tweaks(App)
     app = App()
     try:
-        app.title("PPix Photo-thumb")
+        app.title("Ppix-photo-Thumb")
+        top = app.winfo_children()[0]
+        for child in top.winfo_children():
+            txt = str(child.cget("text") or "")
+            if "PPIX" in txt or "PPix" in txt or "Indexeur" in txt:
+                child.configure(text="Ppix-photo-Thumb")
+                break
     except Exception:
         pass
     install_awake(app)
