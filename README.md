@@ -4,6 +4,8 @@ Application Windows pour **scanner** les bibliothèques photos d’un serveur Pl
 
 Le serveur Plex (sur le NAS) calcule les vignettes. Ce PC envoie les ordres, affiche la jauge, et peut mettre en pause / arrêter.
 
+<img width="1123" height="757" alt="capture-ecran" src="https://github.com/user-attachments/assets/0ab6a277-e9b1-43cd-964c-9d275d536afb" />
+
 ## Téléchargement
 
 Release Windows : [`ppix-photo-thumb.exe`](https://github.com/Kahenis/Ppix-Photo-Thumb/releases)
